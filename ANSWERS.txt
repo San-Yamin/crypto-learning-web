@@ -1,46 +1,75 @@
 ==========================================
-CYBER ESCAPE ROOM - MASTER ANSWER KEY
+CRYPTO ESCAPE ROOM - MODULE ANSWER KEY
 ==========================================
 
-[LEVEL 1: CAESAR CIPHER]
-1. Cipher: "WKH SDVVZRUG LV VHFXUHBQRGH"
-   Answer: "SECURE_NODE"
-2. Cipher: "IFMMP XPSME"
-   Answer: "HELLO WORLD"
-3. Cipher: "URYYB QUNER"
-   Answer: "HELLO THERE"
-4. Cipher: "DWWDFN DW GDZQ"
-   Answer: "ATTACK AT DAWN"
-5. Cipher: "EUXW VJCRB"
-   Answer: "VNIX SHELL"
+Module 1 - Introduction to InfoSec
+Mission: Q09ORklERU5USUFMSVRZX0lOVEVHUklUWV9BVkFJTEFCSUxJVFk=
+Answer: CONFIDENTIALITY_INTEGRITY_AVAILABILITY
 
-[LEVEL 2: STEGANOGRAPHY]
-(Hidden at the end of the image file)
-1. level2_1.png -> Answer: "GHOST_PROTOCOL"
-2. level2_2.png -> Answer: "BLUE_SKY"
-3. level2_3.png -> Answer: "DEEP_DIVE"
-4. level2_4.png -> Answer: "DARK_WEB"
-5. level2_5.png -> Answer: "CYBER_PUNK"
+Module 2 - Math Foundations
+Mission: Find x if 3x + 7 = 4 (mod 26).
+Answer: 25
 
-[LEVEL 3: RSA ENCRYPTION]
-(Calculate Private Key 'd')
-1. p=61, q=53, e=17  -> Answer: "2753"
-2. p=47, q=59, e=17  -> Answer: "157"
-3. p=17, q=11, e=7   -> Answer: "23"
-4. p=23, q=29, e=3   -> Answer: "411"
-5. p=13, q=19, e=5   -> Answer: "173"
+Module 3 - Encryption Paradigms
+Mission: Alice encrypts with Bob's Public Key. Bob decrypts with his Private Key. What paradigm is this?
+Answer: ASYMMETRIC
 
-[LEVEL 4: HASH VERIFICATION]
-(Find plaintext that matches SHA-256 hash)
-1. Hash: 5e884898... -> Answer: "password"
-2. Hash: 2cf24dba... -> Answer: "hello"
-3. Hash: 03ac6742... -> Answer: "1234"
-4. Hash: 8d969eef... -> Answer: "123456"
-5. Hash: 04f8996d... -> Answer: "admin"
+Module 4 - Advanced Math
+Mission: Calculate 2^10 mod 11.
+Answer: 1
 
-[LEVEL 5: DIGITAL SIGNATURE]
-1. Prompt: SIGNATURE_VERIFICATION_PENDING -> Answer: "TRUST_VERIFIED_2024"
-2. Prompt: AUTH_CHAIN_BROKEN              -> Answer: "ROOT_CA_APPROVED"
-3. Prompt: INVALID_CERTIFICATE            -> Answer: "CERT_RENEWED_VALID"
-4. Prompt: KEY_REVOKED                    -> Answer: "NEW_KEY_ISSUED"
-5. Prompt: ACCESS_TOKEN_EXPIRED           -> Answer: "TOKEN_REFRESHED"
+Module 5 - Probability & Number Theory
+Mission: Calculate GCD(1071, 462)
+Answer: 21
+
+Module 6 - Number-Theoretic Problems
+Mission: Factorize: 3233
+Answer: 53, 61
+
+Module 7 - RSA & Quadratic Residuosity
+Mission: p = 61, q = 53, e = 17. Calculate private key d.
+Answer: 2753
+
+Module 8 - Parameters & Primality
+Mission: Is 7919 a prime number? (YES/NO)
+Answer: YES
+
+Module 9 - Prime Generation & Stream Ciphers
+Mission: Plaintext 0x41 XOR Key 0x35
+Answer: 74
+
+Module 10 - LFSRs
+Mission: 3-bit LFSR (x^3 + x + 1). Start: 100. Next state?
+Answer: 001
+
+Module 11 - Block Ciphers
+Mission: Does ECB hide data patterns in images? (YES/NO)
+Answer: NO
+
+Module 12 - Classical Evolution
+Mission: WKH SDVVZRUG LV VHFXUHBQRGH
+Answer: THE PASSWORD IS SECUREYNODE
+
+Module 13 - Core Public-Key Algorithms
+Mission: ElGamal: p=23, g=5, x=3. Find h = g^x mod p.
+Answer: 10
+
+Module 14 - Hash Functions
+Mission: 5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8
+Answer: password
+
+Module 15 - Identification & Authentication
+Mission: What attack tries every word in a predefined list?
+Answer: DICTIONARY ATTACK
+
+Module 16 - Extended Euclidean Algorithm
+Mission: For a = 4864 and b = 3458, find x and y such that 4864x + 3458y = gcd(4864, 3458).
+Answer: 32,-45
+
+Module 17 - Modular Exponentiation
+Mission: Compute 5^596 mod 1234 using the repeated square-and-multiply algorithm.
+Answer: 1013
+
+Module 18 - Rabin Public-Key Encryption
+Mission: Rabin encryption: n = 899, message m = 123. Compute c = m^2 mod n.
+Answer: 745
